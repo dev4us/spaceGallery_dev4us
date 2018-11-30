@@ -6,13 +6,13 @@ import { MdChevronLeft, MdChevronRight } from 'react-icons/md';
 
 const cx = classNames.bind(styles);
 
-const Navigator = () => {
+const Navigator = ({handleDate}) => {
   return (
     <div className={cx('navigator')}>
-      <div>
+      <div onClick={() => handleDate('prev')}>
         <MdChevronLeft className={cx('arrow')}/>
       </div>
-      <div>
+      <div onClick={() => handleDate('next')}>
         <MdChevronRight className={cx('arrow')}/>
       </div>
     </div>

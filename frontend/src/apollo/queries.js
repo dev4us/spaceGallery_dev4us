@@ -1,9 +1,10 @@
 import gql from "graphql-tag";
 
 export const PHOTO_LOAD = gql`
-  query {
-    getSpacePic(date: "2018-11-28") {
-      url
+  query getSpacePic($date: String!){
+    getSpacePic(date: $date) {
+      url,
+      date
     }
   }
 `;
