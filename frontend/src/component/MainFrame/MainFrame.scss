@@ -1,0 +1,20 @@
+@import "../../styles/utils.scss";
+
+.main-frame {
+  header {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 1rem;
+    background: $oc-gray-9;
+    color: white;
+  }
+
+  .viewer-frame {
+    display:flex;
+    position: relative;
+    justify-content:center;
+    width: 100%;
+    height: calc(100vh - 5rem);
+  }
+}

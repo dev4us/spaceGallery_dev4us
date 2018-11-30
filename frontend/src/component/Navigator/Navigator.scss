@@ -1,0 +1,15 @@
+@import "../../styles/utils.scss";
+
+.navigator{
+  display:flex;
+  position:absolute;
+  justify-content:space-between;
+  align-items:center;
+
+  width:95%;
+  height:100%;
+  .arrow{
+    font-size:3rem;
+    color:white;
+  }
+}
