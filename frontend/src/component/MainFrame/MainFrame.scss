@@ -8,12 +8,14 @@
     padding: 1rem;
     background: $oc-gray-9;
     color: white;
+    box-sizing: border-box;
+    font-weight: bold;
   }
 
   .viewer-frame {
-    display:flex;
+    display: flex;
     position: relative;
-    justify-content:center;
+    justify-content: center;
     width: 100%;
     height: calc(100vh - 5rem);
   }

@@ -1,15 +1,23 @@
 @import "../../styles/utils.scss";
 
-.navigator{
-  display:flex;
-  position:absolute;
-  justify-content:space-between;
-  align-items:center;
+.navigator {
+  display: flex;
+  position: absolute;
+  justify-content: space-between;
+  align-items: center;
 
-  width:95%;
-  height:100%;
-  .arrow{
-    font-size:3rem;
-    color:white;
+  width: 95%;
+  height: 100%;
+  .arrow {
+    font-size: 3rem;
+    color: white;
+    border-radius: 50%;
+    cursor: pointer;
+    &:hover {
+      background: rgba(0, 0, 0, 0.25);
+    }
+    &:active {
+      background: rgba(0, 0, 0, 0.5);
+    }
   }
 }

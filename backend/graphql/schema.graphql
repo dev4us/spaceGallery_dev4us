@@ -7,5 +7,5 @@ type SpaceData {
 }
 
 type Query {
-  getSpacePic(date: String!): SpaceData
+  getSpacePic(date: String): SpaceData
 }

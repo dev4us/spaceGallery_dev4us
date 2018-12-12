@@ -4,6 +4,7 @@
   "private": true,
   "dependencies": {
     "apollo-boost": "^0.1.22",
+    "better-react-spinkit": "^2.0.4",
     "classnames": "^2.2.6",
     "graphql": "^14.0.2",
     "graphql-tag": "^2.10.0",
