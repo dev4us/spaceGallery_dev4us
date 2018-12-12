@@ -10,18 +10,20 @@ import Navigator from "./component/Navigator/Navigator";
 
 class App extends Component {
   state = {
-    date: "",
+    date: "2018-12-12",
     url: ""
   };
 
-  componentDidMount(){
+  componentDidMount() {
     let prevDate = this.state.date;
 
-    if(prevDate === ''){
+    if (prevDate === "") {
       this.setState({
         date: moment().format("YYYY-MM-DD")
       });
+      console.log(prevDate + "<<");
     }
+    console.log(prevDate + "<<");
   }
 
   handleDate = control => {
@@ -45,11 +47,14 @@ class App extends Component {
 
   render() {
     const { date } = this.state;
-    const { handleDate }  = this;
+    const { handleDate } = this;
 
     return (
       <ApolloProvider client={client}>
-        <MainFrame navigator={<Navigator handleDate={handleDate}/>} photoFrame={<PhotoFrame date={date}/>} />
+        <MainFrame
+          navigator={<Navigator handleDate={handleDate} />}
+          photoFrame={<PhotoFrame date={date} />}
+        />
       </ApolloProvider>
     );
   }

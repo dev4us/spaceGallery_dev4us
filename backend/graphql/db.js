@@ -7,7 +7,7 @@ export const getSpacePic = date => {
   let API_PARAM_DATE = "&date=" + date;
   const API_END_POINT = API_PARAM_URL + API_PARAM_KEY + API_PARAM_DATE;
 
-  console.log(API_END_POINT);
+  console.log(API_END_POINT + "< end point");
 
   return fetch(`${API_END_POINT}`).then(res => res.json());
 };

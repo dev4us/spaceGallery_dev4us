@@ -27,6 +27,7 @@ const PhotoFrame = ({date}) => (
 class PhotoFrame extends React.Component {
   render() {
     const { date } = this.props;
+
     return (
       <div className={cx("photo-frame")}>
         <Query query={PHOTO_LOAD} variables={{ date }}>
