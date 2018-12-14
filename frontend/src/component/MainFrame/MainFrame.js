@@ -9,7 +9,12 @@ const cx = classNames.bind(styles);
 const MainFrame = ({ navigator, photoFrame }) => {
   return (
     <div className={cx("main-frame")}>
-      <header>Astronomy Picture of the Day</header>
+      <header>
+        <span className={cx("left-title")}>Astronomy Picture of the Day</span>
+        <span className={cx("right-title")}>
+          Special Thanks to Velopert, Moondadi, Nicolas
+        </span>
+      </header>
       <div className={cx("viewer-frame")}>
         {navigator}
         {photoFrame}

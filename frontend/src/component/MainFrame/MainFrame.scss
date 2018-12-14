@@ -3,13 +3,24 @@
 .main-frame {
   header {
     display: flex;
+    justify-content: space-between;
     align-items: center;
     width: 100%;
     padding: 1rem;
     background: $oc-gray-9;
-    color: white;
     box-sizing: border-box;
-    font-weight: bold;
+
+    .left-title {
+      color: white;
+      font-size: 1rem;
+      font-weight: bold;
+    }
+    .right-title {
+      color: #eccd1e;
+      font-size: 0.8rem;
+      font-weight: bold;
+      float: right;
+    }
   }
 
   .viewer-frame {
