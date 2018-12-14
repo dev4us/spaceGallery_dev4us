@@ -8,11 +8,12 @@
     "babel-preset-env": "^1.7.0",
     "babel-preset-stage-3": "^6.24.1",
     "graphql-yoga": "^1.16.7",
-    "node-fetch": "^2.3.0",
-    "react-scripts": "^2.1.1"
+    "node-fetch": "^2.3.0"
   },
   "scripts": {
-    "start": "babel-node src/index.js",
+    "prebuild": "rm -rf build",
+    "build": "babel src --out-dir build",
+    "start": "node build/index.js",
     "dev": "nodemon --exec babel-node src/index.js"
   }
 }
