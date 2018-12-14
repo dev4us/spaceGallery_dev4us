@@ -1,5 +1,10 @@
 {
-  "version": 1,
+  "version": 2,
   "name": "spacegallery-backend",
-  "alias": "spacegallery-backend"
+  "alias": "spacegallery-backend",
+  "builds": [
+    { "src": "/src/**/*.js", "use": "@now/node-server" },
+    { "src": "/src/graphql/schema.graphql", "use": "@now/static" }
+  ],
+  "routes": [{ "src": "/", "dest": "/src/index.js" }]
 }

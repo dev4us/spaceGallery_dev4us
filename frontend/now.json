@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "name": "spacegallery",
+  "alias": "spacegallery",
+  "routes": [{ "src": "/", "dest": "/" }]
+}
