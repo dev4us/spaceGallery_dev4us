@@ -16,10 +16,17 @@
       font-weight: bold;
     }
     .right-title {
-      color: #eccd1e;
+      color: white;
       font-size: 0.8rem;
       font-weight: bold;
       float: right;
+
+      .presen-name {
+        color: #eccd1e;
+      }
+      @media screen and (max-width: $break-small) {
+        display: grid;
+      }
     }
   }
 

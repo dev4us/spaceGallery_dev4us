@@ -10,9 +10,10 @@ const MainFrame = ({ navigator, photoFrame }) => {
   return (
     <div className={cx("main-frame")}>
       <header>
-        <span className={cx("left-title")}>Astronomy Picture of the Day</span>
+        <span className={cx("left-title")}>SpaceGallery</span>
         <span className={cx("right-title")}>
-          Special Thanks to Velopert, Moondadi, Nicolas
+          Special Thanks to&nbsp;
+          <span className={cx("presen-name")}>Moondadi, Nicolas, Velopert</span>
         </span>
       </header>
       <div className={cx("viewer-frame")}>

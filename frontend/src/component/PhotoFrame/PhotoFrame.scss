@@ -26,5 +26,9 @@
     width: calc(100% - 20rem);
     height: calc(100% - 10rem);
     z-index: 9999;
+    @media screen and (max-width: $break-small) {
+      width: calc(100% - 8rem);
+      height: calc(100% - 20rem);
+    }
   }
 }
