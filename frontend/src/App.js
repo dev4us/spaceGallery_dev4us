@@ -7,6 +7,7 @@ import client from "./apollo/apolloClient";
 import MainFrame from "./component/MainFrame/MainFrame";
 import PhotoFrame from "./component/PhotoFrame/PhotoFrame";
 import Navigator from "./component/Navigator/Navigator";
+import Footer from "./component/Footer/Footer";
 
 class App extends Component {
   state = {
@@ -56,6 +57,7 @@ class App extends Component {
           navigator={<Navigator handleDate={handleDate} />}
           photoFrame={<PhotoFrame date={date} setDate={setDate} />}
         />
+        <Footer />
       </ApolloProvider>
     );
   }

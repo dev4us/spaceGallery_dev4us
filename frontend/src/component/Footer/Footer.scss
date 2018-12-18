@@ -1,0 +1,26 @@
+@import "../../styles/utils.scss";
+
+.footer {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 0.5rem;
+  background: black;
+  color: white;
+  box-sizing: border-box;
+  justify-content: center;
+
+  .logo-contents {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    .footer-comment {
+      font-size: 0.8rem;
+    }
+    .logo-git {
+      font-size: 1.5rem;
+      margin-left: 0.5rem;
+    }
+  }
+}
