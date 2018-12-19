@@ -2,6 +2,12 @@
 
 Learning GraphQL by making space photo gallery app with it
 
+![image](https://user-images.githubusercontent.com/19645646/50207082-c5d97100-03b0-11e9-9eaf-9e9741ccab79.png)
+
+It's always open this App on this URL
+
+> https://spacegallery-pngnev245.now.sh/
+
 ## About
 
 spaceGallery 는 NASA에서 제공하는 'Astronomy Picture of the Day' API를 통하여 우주의 배경들을 촬영한 이미지나 동영상을 매일 제공해주는 서비스입니다.
@@ -10,6 +16,10 @@ spaceGallery 는 NASA에서 제공하는 'Astronomy Picture of the Day' API를 �
 API와 단순 통신하는 컨셉에서 GraphQL을 API 통신에 적용을 시켜본 단계입니다.
 
 GraphQL 에 대한 기초적인 학습 후 기존에 진행하였던 사이드 프로젝트(Side project)에 GraphQL 개념 중 일부분을 섞어 느낌을 맛 볼 수 있는 프로젝트였습니다.
+
+### Concept and Design Reference
+
+> https://velopert.com/3503
 
 ## Stack
 
